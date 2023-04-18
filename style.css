@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  border-bottom: solid 1px black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+}
+
+.navigation {
+  background-color: grey;
+  width: 200px;
+  height: calc(100vh - 81px);
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+  border-bottom: solid 1px black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  margin: 50px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+.contact-form textarea {
+  min-height: 150px;
+}/*# sourceMappingURL=style.css.map */
